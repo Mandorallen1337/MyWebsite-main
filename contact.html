@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0719a399a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class = "navbar-container">
+            <a href="/" id="navbar-logo"
+            ><i class="fas fa-gem"></i>Contact</a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="projects.html" class="navbar-link">Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="links.html" class="navbar-link">Links</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="navbar-link">Contact Me</a>
+                </li>
+            </ul>           
+        </div>
+     </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="contact-container">
+                <img src="Images/mail.png" alt="Mail Icon" class="hero-img">
+                <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+                    <input id="nameInput" type="text" name="name" placeholder="Your Name" required class="contact-input">
+                    <input id="emailInput" type="email" name="email" placeholder="Your Email" required class="contact-input">
+                    <textarea id="messegeInput" name="message" placeholder="Your Message" required class="contact-message"></textarea>
+                    <button id="submit-btn" class="contact-submit">Send</button>
+                </form>
+            </div>
+            <section class="list">
+                <div class="list-container">
+                    <h2>Messages</h2>
+                    <ul id="message-list">                     
+                                                
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- List Section -->
+    
+
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
