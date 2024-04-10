@@ -9,6 +9,11 @@ aside {
     border-radius: 5px;
 }
 
+main {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
     background-color: #f77062;
     color: #fff;
