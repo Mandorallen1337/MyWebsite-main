@@ -67,3 +67,5 @@ submitBtn.addEventListener('click', function(event) {
   document.querySelector('#emailInput').value = '';
   document.querySelector('#messegeInput').value = '';
 } );
+
+
